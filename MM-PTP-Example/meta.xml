@@ -1,0 +1,10 @@
+<meta>
+    <info name="Protect the President" type="map" version="1.0.1" gamemodes="minim"/>
+    <map src="ptp.map" dimension="0" />
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+	
+	<settings>
+		
+        </settings>
+</meta>
