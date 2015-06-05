@@ -1,10 +1,14 @@
 <meta>
-    <info name="Protect the President" type="map" version="1.0.1" gamemodes="minim"/>
-    <map src="ptp.map" dimension="0" />
-	<script src="server.lua" type="server" />
-	<script src="client.lua" type="client" />
-	
-	<settings>
-		
-        </settings>
-</meta>
+    <script src="server.lua" type="server"></script>
+    <script src="client.lua" type="client"></script>
+    <info type="map" name="Protect the President" author="Mr.unpredictable" type="map" gamemodes="minim" version="1.0.1"></info>
+    <map src="ptp.map" dimension="0"></map>
+    <settings>
+       <setting name="#teamBalance" value="[ true ]"></setting>
+      <setting name="#spawnKillTime" value="[ 4000 ]"></setting>
+       <setting name="#roundTime" value="[ 10 ]"></setting>
+       <setting name="#showKills" value="[ true ]"></setting>
+      <setting name="#endSoundType" value='[ &quot;2&quot; ]'></setting>
+      <setting name="#disableVipGrenades" value="[ true ]"></setting>
+       </settings>
+ </meta>
