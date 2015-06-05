@@ -1,4 +1,77 @@
-<map edf:definitions="editor_main">
 
+<map edf:definitions="minim_definition,editor_main">
 
-</map>	
+      <team name="President" friendlyName="President" objective="defaultWinner" colorR="255" colorG="0" colorB="0" colorA="0" repLimit="500" limit="1">
+        <class id="1" skin="0" weapons="0,0;0,0;0,0"></class>
+        <spawn id="spawn (1)" interior="0" posX="1244.9" posY="-1699.2" posZ="15" rot="0"></spawn>
+        <spawn id="spawn (2)" interior="0" posX="1348.2998" posY="-1747.9004" posZ="14" rot="0"></spawn>
+        <spawn id="spawn (3)" interior="0" posX="1167.2" posY="-1669.1" posZ="22.5" rot="0"></spawn>
+        <mission value="your mission is to survive from terrorist attacks"></mission>
+        <success_message value="The President has survived!"></success_message>
+        <penalty value="-10000"></penalty>
+        <reward value="80000"></reward>
+    </team>
+    <team name="Police" friendlyName="Police" objective="defaultWinner" colorR="255" colorG="0" colorB="0" colorA="0">
+        <class id="1" skin="280" weapons="0,0;0,0;0,0"></class>
+        <spawnarea id="spawnarea (1)" interior="0" posX="1579.5" posY="-1627.2" posZ="14.1" width="10" height="10" rot="0"></spawnarea>
+        <spawnarea id="spawnarea (2)" interior="0" posX="1564.7" posY="-1626.5" posZ="14.1" width="10" height="10" rot="0"></spawnarea>
+        <spawnarea id="spawnarea (3)" interior="0" posX="1553" posY="-1626.3" posZ="14.1" width="10" height="10" rot="0"></spawnarea>
+        <spawnarea id="spawnarea (4)" interior="0" posX="1589.6" posY="-1698.1" posZ="6" width="6" height="16" rot="0"></spawnarea>
+        <spawnarea id="spawnarea (5)" interior="0" posX="1559.3" posY="-1704.5" posZ="6" width="10" height="10" rot="0"></spawnarea>
+        <mission value="Your mission is to protect the President"></mission>
+        <success_message value="The President has survived"></success_message>
+        <penalty value="-10000"></penalty>
+        <reward value="60000"></reward>
+    </team>
+        <team name="Terrorists" friendlyName="Terrorists" objective="defaultWinner" colorR="255" colorG="0" colorB="0" colorA="0">
+        <class id="1" skin="122" weapons="0,0;0,0;0,0"></class>
+        <mission value="your mission is to kill the President"></mission>
+         <spawnarea id="spawnarea (6)" interior="0" posX="504.60001" posY="-1572" posZ="17" width="10" height="10" rot="0"></spawnarea>
+    <spawnarea id="spawnarea (7)" interior="0" posX="495" posY="-1458" posZ="18" width="10" height="10" rot="0"></spawnarea>
+    <spawnarea id="spawnarea (8)" interior="0" posX="384.79999" posY="-1446.3" posZ="33.99999" width="10" height="10" rot="0"></spawnarea>
+        <success_message value="The Terroritsts have killed the President"></success_message>
+        <penalty value="-10000"></penalty>
+        <reward value="50000"></reward>
+    </team>
+        <vehicle id="vehicle (Police SF) (1)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1544.5" posY="-1610.4" posZ="13.3" rotX="0" rotY="0" rotZ="184" plate="TVAV TEL" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (2)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1550.1" posY="-1610.3" posZ="13.3" rotX="0" rotY="0" rotZ="183.999" plate="E9SX 646" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (3)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1555.4" posY="-1610" posZ="13.3" rotX="0" rotY="0" rotZ="183.999" plate="PEMW 8J4" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (4)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1561.1" posY="-1609.6" posZ="13.3" rotX="0" rotY="0" rotZ="181.999" plate="78V2 2IG" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (5)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1566.1" posY="-1609.8" posZ="13.3" rotX="0" rotY="0" rotZ="181.994" plate="8KIA M2Q" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (6)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1571.8" posY="-1610.1" posZ="13.3" rotX="0" rotY="0" rotZ="181.994" plate="AB82 26Y" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (7)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1579" posY="-1610.1" posZ="13.3" rotX="0" rotY="0" rotZ="181.994" plate="1GFA KDV" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (8)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1585.4" posY="-1610.3" posZ="13.3" rotX="0" rotY="0" rotZ="181.994" plate="FD9E FT8" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (9)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1591.7" posY="-1609.8" posZ="13.3" rotX="0" rotY="0" rotZ="181.994" plate="00N4 N8R" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (10)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1599" posY="-1609.8" posZ="13.3" rotX="0" rotY="0" rotZ="181.994" plate="8QRE EI0" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (11)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1600.2" posY="-1683.7" posZ="5.8" rotX="0" rotY="0" rotZ="90" plate="D4XS J7M" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (12)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1600.6" posY="-1687.5" posZ="5.8" rotX="0" rotY="0" rotZ="90" plate="GIMF YXY" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (13)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1600.3" posY="-1691.8" posZ="5.8" rotX="0" rotY="0" rotZ="90" plate="5IBY Y9J" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (14)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1600.3" posY="-1695.6" posZ="5.8" rotX="0" rotY="0" rotZ="90" plate="664J CQQ" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Police SF) (15)" model="597" color="0,0,0,245,245,245,0,0,0,0,0,0" posX="1599.4" posY="-1700.1" posZ="5.8" rotX="0" rotY="0" rotZ="90" plate="9DRV ZSE" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+  
+    <vehicle id="vehicle (Infernus) (1)" model="411" color="34,52,87,245,245,245,0,0,0,0,0,0" posX="1208.1" posY="-1697.8" posZ="13.4" rotX="0" rotY="0" rotZ="180" plate="6ZYC 84X" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Infernus) (2)" model="411" color="34,52,87,245,245,245,0,0,0,0,0,0" posX="1169.2002" posY="-1678.7998" posZ="22" rotX="0" rotY="0" rotZ="180" plate="5P8R V76" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Infernus) (3)" model="411" color="34,52,87,245,245,245,0,0,0,0,0,0" posX="1253.2" posY="-1699.2" posZ="13.4" rotX="0" rotY="0" rotZ="180" plate="NDRC AD5" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (NRG-500) (1)" model="522" color="109,122,136,16,80,130,0,0,0,0,0,0" posX="1233.1" posY="-1700.8" posZ="13.2" rotX="0" rotY="0" rotZ="180" plate="RXXX 1EW" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (NRG-500) (2)" model="522" color="109,122,136,16,80,130,0,0,0,0,0,0" posX="1231.4" posY="-1700.4" posZ="13.2" rotX="0" rotY="0" rotZ="180" plate="Z3ZK JPI" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (NRG-500) (3)" model="522" color="109,122,136,16,80,130,0,0,0,0,0,0" posX="1204.5" posY="-1698.9" posZ="13.2" rotX="0" rotY="0" rotZ="180" plate="4J6K MQI" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (NRG-500) (4)" model="522" color="109,122,136,16,80,130,0,0,0,0,0,0" posX="1169.1" posY="-1687.6" posZ="21.9" rotX="0" rotY="0" rotZ="180" plate="I81C SIT" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (NRG-500) (5)" model="522" color="109,122,136,16,80,130,0,0,0,0,0,0" posX="1358.6" posY="-1751.7" posZ="13.5" rotX="0" rotY="0" rotZ="1" plate="L0OD Y96" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (NRG-500) (6)" model="522" color="109,122,136,16,80,130,0,0,0,0,0,0" posX="1355.7" posY="-1751.5" posZ="13.5" rotX="0" rotY="0" rotZ="1" plate="IS5M 1I7" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+
+   
+    <vehicle id="vehicle (Windsor) (1)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="518.29999" posY="-1549.5" posZ="15.8" rotX="0" rotY="0" rotZ="0" plate="NYK3 AC0" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (2)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="519.29999" posY="-1559.3" posZ="15.9" rotX="0" rotY="0" rotZ="0" plate="KFRA 2U1" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (3)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="546.79999" posY="-1559.9" posZ="15.6" rotX="0" rotY="0" rotZ="0" plate="5ECP WHA" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (4)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="496.89999" posY="-1574.5" posZ="17.2" rotX="0" rotY="0" rotZ="0" plate="4GB7 50L" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (5)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="521" posY="-1604.2002" posZ="16" rotX="0" rotY="0" rotZ="0" plate="A6Z5 3ZW" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (6)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="494.20001" posY="-1441.3" posZ="16.2" rotX="0" rotY="0" rotZ="0" plate="377R BMX" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (7)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="514" posY="-1449.3" posZ="14.8" rotX="0" rotY="0" rotZ="0" plate="33W9 FGT" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (8)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="510.79999" posY="-1452.7" posZ="14.8" rotX="0" rotY="0" rotZ="0" plate="CEVD LF3" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (9)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="518.09998" posY="-1447.4" posZ="14.8" rotX="0" rotY="0" rotZ="0" plate="GXLK 73K" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (10)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="497.39999" posY="-1440.7" posZ="14.8" rotX="0" rotY="0" rotZ="0" plate="D7VC I5V" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (11)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="500.70001" posY="-1440.4" posZ="14.8" rotX="0" rotY="0" rotZ="0" plate="M19L 050" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (12)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="406.79999" posY="-1445.4" posZ="31.6" rotX="0" rotY="0" rotZ="0" plate="27KW E69" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (13)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="411.89999" posY="-1448.5" posZ="31.6" rotX="0" rotY="0" rotZ="0" plate="Z5BA MD1" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+    <vehicle id="vehicle (Windsor) (14)" model="555" color="37,37,39,245,245,245,0,0,0,0,0,0" posX="414.79999" posY="-1452.9" posZ="31.6" rotX="0" rotY="0" rotZ="0" plate="L6J3 E4V" paintjob="3" interior="0" alpha="255" dimension="0"></vehicle>
+</map>
